@@ -6,4 +6,13 @@
     <string name="username">Username</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">REGISTRATION</string>
+    <string name="or">OR</string>
+    <string name="re_password">Password</string>
+    <string name="email">Email</string>
+    <string name="confirm_pw">Confirm Password</string>
+    <string name="re_username">Username</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter_here">Enter here...</string>
 </resources>
