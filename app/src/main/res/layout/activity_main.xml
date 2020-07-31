@@ -5,19 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:focusableInTouchMode="true"
+    android:background="@drawable/sky240x320"
     tools:context=".MainActivity">
-
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:id="@+id/backgroundimg"
-            android:layout_width="match_parent"
-            android:layout_height="731dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/sky240x320" />
-    </FrameLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -37,7 +26,7 @@
             android:layout_height="wrap_content"
             android:text="@string/good"
             android:textColor="#000000"
-            android:textSize="32sp" />
+            android:textSize="32dp" />
 
     </LinearLayout>
 
@@ -54,7 +43,7 @@
                 android:layout_centerHorizontal="true"
                 android:text="@string/morning"
                 android:textColor="#000000"
-                android:textSize="32sp" />
+                android:textSize="32dp" />
 
             <View
             android:layout_width="match_parent"
@@ -205,7 +194,8 @@
         android:layout_marginEnd="136dp"
         android:layout_marginRight="136dp"
         android:layout_marginBottom="-5dp"
-        app:srcCompat="@drawable/whatsapp" />
+        app:srcCompat="@drawable/whatsapp"
+        android:contentDescription="TODO" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -217,7 +207,8 @@
         android:layout_marginEnd="104dp"
         android:layout_marginRight="104dp"
         android:layout_marginBottom="12dp"
-        app:srcCompat="@drawable/twitter" />
+        app:srcCompat="@drawable/twitter"
+        android:contentDescription="TODO" />
 
 
 </RelativeLayout>
