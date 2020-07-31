@@ -15,4 +15,6 @@
     <string name="btn_register">REGISTER</string>
     <string name="submit">SUBMIT</string>
     <string name="enter_here">Enter here...</string>
+    <string name="morning">Morning</string>
+    <string name="good">Good</string>
 </resources>

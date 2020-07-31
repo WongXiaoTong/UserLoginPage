@@ -4,8 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sky240x320"
+    android:focusableInTouchMode="true"
     tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/backgroundimg"
+            android:layout_width="match_parent"
+            android:layout_height="731dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sky240x320" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/good"
+            android:textColor="#000000"
+            android:textSize="32sp" />
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/morning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/morning"
+                android:textColor="#000000"
+                android:textSize="32sp" />
+
+            <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
 
     <ImageView
         android:id="@+id/imageView"
@@ -13,12 +71,10 @@
         android:layout_height="150dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp"
-        android:clickable="true"
+        android:layout_marginTop="142dp"
         android:cropToPadding="false"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/Profile" />
-
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -26,7 +82,7 @@
         android:layout_height="55dp"
         android:layout_below="@id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="20dp"
         android:background="#99BDBDBD"
         android:drawableLeft="@drawable/ic_action_name"
         android:ems="10"
@@ -42,15 +98,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="290dp"
         android:background="#99BDBDBD"
         android:drawableLeft="@drawable/ic_action_lock"
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:textAllCaps="true"
-        android:padding="10dp" />
+        android:padding="10dp"
+        android:textAllCaps="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -59,9 +115,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="65dp"
-        android:layout_marginLeft="65dp"
-        android:layout_marginBottom="175dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginBottom="168dp"
         android:text="Don't have an account? Sign up now"
         android:textColor="#000000"
         android:textSize="17dp"
@@ -78,7 +134,7 @@
         android:layout_marginBottom="215dp"
         app:cardBackgroundColor="#FF000"
         app:cardCornerRadius="25dp"
-        app:cardElevation="5dp" >
+        app:cardElevation="5dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -106,7 +162,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="110dp"
+        android:layout_marginBottom="121dp"
         android:text="Forgot Password?"
         android:textColor="#000000"
         android:textSize="17dp" />
