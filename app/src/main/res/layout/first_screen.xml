@@ -17,7 +17,7 @@
         android:layout_marginTop="0dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="382dp"
-        android:src="@drawable/TrackMe" />
+        android:src="@drawable/trackMe" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -27,6 +27,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="-7dp"
         android:layout_marginBottom="-159dp"
-        android:src="@drawable/WorldMap" />
+        android:src="@drawable/worldmap" />
 
 </RelativeLayout>

@@ -52,7 +52,8 @@
             android:id="@+id/imageView19"
             android:layout_width="98dp"
             android:layout_height="54dp"
-            app:srcCompat="@drawable/ic_action_cart" />
+            app:srcCompat="@drawable/ic_action_cart"
+            tools:ignore="VectorDrawableCompat" />
 
         <ImageView
             android:id="@+id/imageView20"
@@ -60,13 +61,15 @@
             android:layout_height="58dp"
             android:layout_marginEnd="68dp"
             android:layout_marginRight="68dp"
-            app:srcCompat="@drawable/ic_action_track" />
+            app:srcCompat="@drawable/ic_action_track"
+            tools:ignore="VectorDrawableCompat" />
 
         <ImageView
             android:id="@+id/imageView21"
             android:layout_width="450dp"
             android:layout_height="61dp"
-            app:srcCompat="@drawable/ic_action_notice" />
+            app:srcCompat="@drawable/ic_action_notice"
+            tools:ignore="VectorDrawableCompat" />
 
     </androidx.cardview.widget.CardView>
 
@@ -103,7 +106,8 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView15"
         app:layout_constraintVertical_bias="0.14"
         app:srcCompat="@drawable/ic_action_location"
-        tools:layout_editor_absoluteX="47dp" />
+        tools:layout_editor_absoluteX="47dp"
+        tools:ignore="MissingConstraints,VectorDrawableCompat" />
 
     <ImageView
         android:id="@+id/imageView17"
@@ -115,7 +119,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView16"
         app:layout_constraintVertical_bias="0.476"
-        app:srcCompat="@drawable/ic_action_setting" />
+        app:srcCompat="@drawable/ic_action_setting"
+        tools:ignore="VectorDrawableCompat" />
 
     <ImageView
         android:id="@+id/imageView18"
@@ -124,7 +129,8 @@
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:srcCompat="@drawable/ic_action_terms"
-        tools:layout_editor_absoluteX="52dp" />
+        tools:layout_editor_absoluteX="52dp"
+        tools:ignore="MissingConstraints,VectorDrawableCompat" />
 
     <TextView
         android:id="@+id/textView7"
@@ -186,7 +192,7 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Terms & Conditions"
+        android:text="@string/terms_conditions"
         android:textColor="#000000"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
